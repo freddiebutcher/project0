@@ -1,0 +1,159 @@
+
+
+.html {
+
+}
+
+
+.body-container {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+}
+
+
+/* .hero {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  object-fit: cover;
+} */
+
+/* .box.grid-item:hover {
+  background-color: black;
+} */
+
+#story1 {
+  visibility: visible;
+}
+
+#story2 {
+display: none;
+}
+
+#story3 {
+display: none;}
+
+.story p {
+  font-size: 22px;
+}
+
+
+.gif-container {
+  position: relative;
+   height: 600px;
+   margin: auto;
+   display: none;
+
+}
+
+.gif {
+  width: 100%;
+  height: auto;
+}
+
+.gif-container .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:rgba(128,128,128,0.3);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:rgba(139,0,0,0.5);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+img {
+  height: 600px;
+}
+
+.form {
+  display: table;
+}
+.form-item {
+  display: table-cell;
+}
+
+.tabletop{
+  padding: 0;
+  background-image: url("http://textures.world/wp-content/uploads/2018/10/Aluminum-Brushed-Metal-Seamless-Background-Textures-1-copy.jpg");
+  border-radius: 5px;
+  box-shadow: 10px 10px 14px #555;
+
+}
+
+.grid-container {
+width: 960px;
+text-align: center;
+margin: auto;
+justify-content: center;
+padding: 20px;
+display: none;
+grid-template-columns: 180px 180px 180px;
+grid-template-rows:180px 180px 180px;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+box-sizing: border-box;
+
+
+}
+.grid-item {
+padding: 0px;
+border-radius: 5px;
+box-shadow: 10px 10px 14px #555;
+padding: 5px;
+background-image: url("../img/background.jpg");
+/* background-repeat: round; */
+}
+
+.box:hover {
+background-repeat: round;
+}
+
+.tile-background {
+width: 100%;
+height: 100%;
+display: block;
+object-fit: cover;
+padding: 0px;
+border-radius: 5px;
+z-index: 1;
+}
+
+.click-text {
+line-height: 170px;
+height: auto;
+text-align: center;
+font-family: 'Jura', sans-serif;
+color: black;
+vertical-align: middle;
+font-size: 100px;
+margin: 0;
+z-index: 2;
+}
+
+.game-status {
+  display: none;
+}
