@@ -1,9 +1,8 @@
 
 
-.html {
+body {
 
 }
-
 
 .body-container {
   max-width: 960px;
@@ -11,20 +10,6 @@
   font-family: 'Jura', sans-serif;
   text-align: center;
 }
-
-
-/* .hero {
-  text-align: center;
-  margin: auto;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Jura', sans-serif;
-  object-fit: cover;
-} */
-
-/* .box.grid-item:hover {
-  background-color: black;
-} */
 
 #story1 {
   visibility: visible;
@@ -41,13 +26,11 @@ display: none;}
   font-size: 22px;
 }
 
-
 .gif-container {
   position: relative;
    height: 600px;
    margin: auto;
    display: none;
-
 }
 
 .gif {
@@ -87,6 +70,7 @@ display: none;}
 
 img {
   height: 600px;
+  border-radius: 10px;
 }
 
 .form {
@@ -117,7 +101,6 @@ grid-column-gap: 20px;
 grid-row-gap: 20px;
 box-sizing: border-box;
 
-
 }
 .grid-item {
 padding: 0px;
@@ -125,7 +108,6 @@ border-radius: 5px;
 box-shadow: 10px 10px 14px #555;
 padding: 5px;
 background-image: url("../img/background.jpg");
-/* background-repeat: round; */
 }
 
 .box:hover {

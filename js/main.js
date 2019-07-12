@@ -1,8 +1,7 @@
     console.log('run');
 
 $(document).ready(function() {
-
-    const squares = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+    //GAMEPLAY
     let playerOneTurn = true;
     let playerTwoTurn = false;
     let playerOne = [];
@@ -28,14 +27,15 @@ $(document).ready(function() {
             $(this).off('click')
         }
 
+        //WINNING MESSAGE
         const x = findWinner(playerOne);
         const o = findWinner(playerTwo);
 
         const gameStatus = function () {
           if (x === true && o === false) {
-              return("Anatoliy Dyatlov is the winner - evil prevails and the world survives")
+              return("Anatoliy Dyatlov will push the button - evil prevails and the world survives")
           } else if (o === true && x === false) {
-              return("Aleksandr Akimov is the winner. He shows his lack of experience and has blown up the world.")
+              return("Aleksandr Akimov will not push the button. He shows his lack of experience and has blown up the world.")
           } else if (x === true && o === true || x === false && o === false) {
               return("Draw - this'll be sorted with fists")
           };
@@ -43,6 +43,7 @@ $(document).ready(function() {
           $(".game-status").find('h1').text(gameStatus());
         })
 
+    //GAME WIN LOGIC
     const findWinner = function(player) {
 
         if ((player.includes("one") && player.includes("two") && player.includes("three")) ||
@@ -61,13 +62,13 @@ $(document).ready(function() {
         };
     };
 
+    //STORY NARRATIVE
     //Story1 show then hide, Story 2 show
     $('#next1').on('click', function() {
       console.log("click");
       $('#story1').hide();
       $('#story2').show();
     });
-
     //Story 2 show then hide, Story3 show
     $('#next2').on('click', function() {
       console.log("click");
@@ -86,16 +87,5 @@ $(document).ready(function() {
       $('.gif-container').hide();
       $('.grid-container').css('display', 'grid');
       $('.game-status').show();
-
     });
 });
-
-
-// $('.close-div').click(function(){
-//    $(this).parent().parent().remove();
-// });
-
-//Player Name based on input form
-//Input form replaces gif
-//Scores
-// Reset game, and bank scores
