@@ -11,11 +11,11 @@ Chernobyl is in impending meltdown, and the only way for the engineers to decide
 - Standard tic-tac-toe gameplay 
 
 ## Code Tour
-- Sore bits
-Building the logic. Joel reduced seventy lines of code to 2 `$(this).find('p').text('O');`
+# Sore bits
+- Building the logic. Joel reduced seventy lines of code to 2 `$(this).find('p').text('O');`
 
-- Cool beans
-Using jQuery to build the story logic, and showing / hiding elements
+# Cool beans
+- Using jQuery to build the story logic, and showing / hiding elements
 
 ## Bugs
 NONE
