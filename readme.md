@@ -2,6 +2,9 @@
 Krestiki Noliki
 (Tic Tac Toe)
 
+# Link
+https://freddiebutcher.github.io/project0/
+
 ## Description
 Chernobyl is in impending meltdown, and the only way for the engineers to decide what to do, is to play Krestiki Noliki. Two engineers, one a senior tyrant and the other an inexperienced junior, will battle it out to decide the future of the world.
 
