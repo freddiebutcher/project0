@@ -2,7 +2,7 @@
 Krestiki Noliki
 (Tic Tac Toe)
 
-# Link
+## Link
 https://freddiebutcher.github.io/project0/
 
 ## Description
@@ -11,7 +11,7 @@ Chernobyl is in impending meltdown, and the only way for the engineers to decide
 ## Features
 - Purposeful retro feel based on storyline
 - Live winner announcement
-- Standard tic-tac-toe gameplay 
+- Standard tic-tac-toe gameplay
 
 ## Code Tour
 # Sore bits
